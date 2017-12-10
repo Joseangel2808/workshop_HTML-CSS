@@ -1,0 +1,133 @@
+*{
+    font-family: 'Raleway', Arial, sans-serif;
+}
+
+/*HEADER*/
+.mainWidth{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: black;
+    height: 40px;
+}
+
+.menu{
+    float: right;
+}
+
+.menu li{
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'ralewaybold', sans-serif;
+    margin: 0 10px 0 35px;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+.logo{
+    color: white;
+    float: left;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin: 12px 0 0 0;
+    letter-spacing: 2px;
+}
+
+.logo .green{
+    color: #44C2A7;
+    font-family: 'ralewayblack', sans-serif;
+}
+
+
+/*SLIDER*/
+.slider{
+    background: #fafafa; /* Old browsers */
+    background: -moz-linear-gradient(top, #fafafa 49%, #cfced6 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #fafafa 49%,#cfced6 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #fafafa 49%,#cfced6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#cfced6',GradientType=0 ); /* IE6-9 */
+}
+
+.blackChair{
+    background: url('./../images/black_chair.png') no-repeat center;
+    background-size: cover;
+    height: 410px;
+    width: 40%;
+    float: left;
+    margin: 50px 0 0 0;
+
+}
+
+
+
+    /*READ MORE*/
+.readMore{
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 140px 0 0 0;
+}
+
+.readMoreButton{
+    background: #44C2A7;
+    height: 50px;
+    width: 260px;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 23px;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 12px;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.readMoreButton:hover{
+    -webkit-box-shadow: 0 0 10px 0 rgba(143,143,143,1);
+    -moz-box-shadow: 0 0 10px 0 rgba(143,143,143,1);
+    box-shadow: 0 0 10px 0 rgba(143,143,143,1);
+    background-color: #43c9ad;
+}
+
+.readMoreButton:active{
+    -webkit-box-shadow: 0 0 10px 0 rgba(143,143,143,1);
+    -moz-box-shadow: 0 0 10px 0 rgba(143,143,143,1);
+    box-shadow: 0 0 10px 0 rgba(143,143,143,1);
+    background-color: #45dabd;
+}
+
+.readMore span:nth-of-type(2n){
+    color: #44C2A7;
+    font-family: 'ralewayblack',sans-serif;
+}
+
+.readMore span{
+    font-size: 40px;
+    text-transform: uppercase;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.readMore p{
+    line-height: 1.5em;
+    margin: 20px 60px 25px 60px;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.sliderButton{
+    width:5%;
+    line-height: 500px;
+    float: left;
+    text-align: center;
+    font-size: 60px;
+    user-select: none;
+    color: #44c2a7;
+}
+
+
+/*PHOTOS*/
