@@ -33,7 +33,7 @@ header{
     float: left;
     text-transform: uppercase;
     font-size: 13px;
-    margin: 12px 0 0 0;
+    margin: 12px 0 0 20px;
     letter-spacing: 2px;
 }
 
@@ -53,15 +53,14 @@ header{
 }
 
 .blackChair{
-    background: url('./../images/black_chair.png') no-repeat center;
+    background: url('./../images/black_chair.png') no-repeat;
     background-size: cover;
+    background-position: center;
     height: 410px;
     width: 40%;
     float: left;
     margin: 50px 0 0 0;
-
 }
-
 
 
     /*READ MORE*/
@@ -131,3 +130,74 @@ header{
 
 
 /*PHOTOS*/
+.photos{
+    height: 400px;
+}
+
+.img{
+    height: 220px;
+    width: 330px;
+    border: solid 1px red;
+    margin: 35px 18px 0 15px;
+    float: left;
+    position: relative;
+}
+
+.fir{
+    background-image: url("./../images/box1_img.jpg");
+    background-position: left;
+    background-size: cover;
+}
+
+.sec{
+    background-image: url("./../images/box2_img.jpg");
+    background-position: left;
+    background-size: cover;
+}
+
+.img:after{
+    content: '';
+    display: block;
+    position: absolute;
+    height: 60px;
+    width: inherit;
+    background: rgba(255, 255, 255, .5);
+    bottom: 10px;
+    z-index: 0;
+}
+
+.img:before{
+    content: '';
+    display: block;
+    position: absolute;
+    height: 7px;
+    width: 150px;
+    bottom: 32px;
+    left: 15px;
+    background-color: #43c9ad;
+    z-index: 1;
+}
+
+.photos div:last-of-type{
+    width: 330px;
+    height: 250px;
+    border: solid 1px red;
+    margin: 35px 0 0 15px;
+    float: left;
+}
+
+.textBox{
+    position: relative;
+}
+
+.textBox:before{
+    content: '';
+    display: block;
+    position: absolute;
+    height: 7px;
+    width: 150px;
+    top: 45px;
+    left: 25px;
+    background-color: #43c9ad;
+}
+
