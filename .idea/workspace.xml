@@ -3,6 +3,50 @@
   <component name="ChangeListManager">
     <list default="true" id="ecdea7a3-f48c-41df-b60d-343b1c24ced2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Fonts/generator_config.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-black-demo.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-black-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-black-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-black-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-blackitalic-demo.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-blackitalic-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-blackitalic-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-bold-demo.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-bold-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-bold-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-bolditalic-demo.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-bolditalic-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-bolditalic-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-extrabold-demo.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-extrabold-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-extrabold-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-extrabold-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-extrabolditalic-demo.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-extrabolditalic-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-extrabolditalic-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-extrabolditalic-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-extralight-demo.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-extralight-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-extralight-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-extralightitalic-demo.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-extralightitalic-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-extralightitalic-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-italic-demo.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-italic-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-italic-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-italic-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-light-demo.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-light-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-light-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-lightitalic-demo.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-lightitalic-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-lightitalic-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-medium-demo.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-medium-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/raleway-medium-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/specimen_files/grid_12-825-55-15.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/specimen_files/specimen_stylesheet.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Fonts/stylesheet.css" afterPath="" />
       <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -17,31 +61,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="156" column="0" lean-forward="true" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="805">
-              <caret line="52" column="14" lean-forward="true" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
-              <folding>
-                <element signature="e#855#859#1" expanded="true" />
-                <element signature="e#1458#1462#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.6672474">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="179">
+                  <caret line="75" column="26" lean-forward="true" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+                  <folding>
+                    <element signature="e#930#934#1" expanded="true" />
+                    <element signature="e#1612#1616#1" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="6750">
+                  <caret line="375" column="19" lean-forward="true" selection-start-line="375" selection-start-column="19" selection-end-line="375" selection-end-column="19" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -70,9 +122,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="1170" />
+    <option name="x" value="772" />
     <option name="y" value="24" />
-    <option name="width" value="750" />
+    <option name="width" value="1148" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
@@ -90,17 +142,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="course_HTML-CSS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="course_HTML-CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="workshop_HTML-CSS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workshop_HTML-CSS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="course_HTML-CSS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="course_HTML-CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="workshop_HTML-CSS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workshop_HTML-CSS" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -108,6 +159,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -147,18 +199,20 @@
       <workItem from="1512766460345" duration="11132000" />
       <workItem from="1512829909200" duration="4107000" />
       <workItem from="1512944803284" duration="5379000" />
-      <workItem from="1513032697785" duration="2632000" />
+      <workItem from="1513032697785" duration="2898000" />
+      <workItem from="1513513570603" duration="10172000" />
+      <workItem from="1513628517412" duration="11510000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33395000" />
+    <option name="totallyTimeSpent" value="55343000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1170" y="24" width="750" height="1056" extended-state="4" />
+    <frame x="772" y="24" width="1148" height="1056" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36533332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20121951" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -186,7 +240,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36533332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20121951" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -207,6 +261,44 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="111" lean-forward="false" selection-start-line="32" selection-start-column="111" selection-end-line="32" selection-end-column="111" />
+          <folding>
+            <element signature="e#930#934#1" expanded="true" />
+            <element signature="e#1612#1616#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2682">
+          <caret line="149" column="1" lean-forward="false" selection-start-line="149" selection-start-column="1" selection-end-line="149" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="52" column="14" lean-forward="true" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+          <folding>
+            <element signature="e#930#934#1" expanded="true" />
+            <element signature="e#1612#1616#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2394">
@@ -220,8 +312,8 @@
         <state relative-caret-position="828">
           <caret line="46" column="35" lean-forward="true" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
           <folding>
-            <element signature="e#855#859#1" expanded="true" />
-            <element signature="e#1458#1462#1" expanded="true" />
+            <element signature="e#930#934#1" expanded="true" />
+            <element signature="e#1612#1616#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -231,8 +323,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#855#859#1" expanded="true" />
-            <element signature="e#1458#1462#1" expanded="true" />
+            <element signature="e#930#934#1" expanded="true" />
+            <element signature="e#1612#1616#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -242,8 +334,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#855#859#1" expanded="true" />
-            <element signature="e#1458#1462#1" expanded="true" />
+            <element signature="e#930#934#1" expanded="true" />
+            <element signature="e#1612#1616#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -256,20 +348,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fonts/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Fonts/stylesheet.css" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#855#859#1" expanded="true" />
-            <element signature="e#1458#1462#1" expanded="true" />
+            <element signature="e#930#934#1" expanded="true" />
+            <element signature="e#1612#1616#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -282,13 +368,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fonts/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Fonts/stylesheet.css" />
     <entry file="file://$PROJECT_DIR$/../../Zadania/Egzaminy/KRA_FER_S_14_Egzamin_1/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -298,29 +378,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index2.html" />
     <entry file="file://$PROJECT_DIR$/submenu.html" />
-    <entry file="file://$PROJECT_DIR$/Fonts/stylesheet.css">
+    <entry file="file://$PROJECT_DIR$/Fonts/stylesheet.css" />
+    <entry file="file://$PROJECT_DIR$/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="52" column="14" lean-forward="true" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
-          <folding>
-            <element signature="e#855#859#1" expanded="true" />
-            <element signature="e#1458#1462#1" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="156" column="0" lean-forward="true" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+        <state relative-caret-position="6750">
+          <caret line="375" column="19" lean-forward="true" selection-start-line="375" selection-start-column="19" selection-end-line="375" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="75" column="26" lean-forward="true" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+          <folding>
+            <element signature="e#930#934#1" expanded="true" />
+            <element signature="e#1612#1616#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,5 +1,5 @@
 *{
-    font-family: 'Raleway', Arial, sans-serif;
+    font-family: 'raleway', Arial, sans-serif;
 }
 
 /*HEADER*/
@@ -22,7 +22,7 @@ header{
     color: white;
     text-transform: uppercase;
     font-size: 13px;
-    font-family: 'ralewaybold', sans-serif;
+    font-weight: 700;
     margin: 0 10px 0 35px;
     letter-spacing: 2px;
     line-height: 40px;
@@ -32,15 +32,21 @@ header{
     color: white;
     float: left;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 14px;
     margin: 12px 0 0 20px;
-    letter-spacing: 2px;
+    font-weight: bold;
+
 }
 
-.logo .green{
-    color: #44C2A7;
-    font-family: 'ralewayblack', sans-serif;
+.green{
+    color: #2FCCA8;
+    font-weight: 800;
 }
+
+.white{
+    font-weight: 500;
+}
+
 
 
 /*SLIDER*/
@@ -57,22 +63,20 @@ header{
     background-size: cover;
     background-position: center;
     height: 410px;
-    width: 40%;
+    width: 35%;
     float: left;
-    margin: 50px 0 0 0;
+    margin: 65px 0 0 0;
 }
-
-
-    /*READ MORE*/
+/*read more*/
 .readMore{
-    width: 50%;
+    width: 55%;
     float: left;
     text-align: center;
-    margin: 140px 0 0 0;
+    padding: 140px 120px 0 60px;
 }
 
 .readMoreButton{
-    background: #44C2A7;
+    background: #2FCCA8;
     height: 50px;
     width: 260px;
     border-radius: 10px;
@@ -99,11 +103,6 @@ header{
     background-color: #45dabd;
 }
 
-.readMore span:nth-of-type(2n){
-    color: #44C2A7;
-    font-family: 'ralewayblack',sans-serif;
-}
-
 .readMore span{
     font-size: 40px;
     text-transform: uppercase;
@@ -112,10 +111,9 @@ header{
 }
 
 .readMore p{
-    line-height: 1.5em;
-    margin: 20px 60px 25px 60px;
-    -moz-user-select: none;
-    user-select: none;
+    line-height: 1.4em;
+    font-size: 15px;
+    padding: 25px 0 30px 0;
 }
 
 .sliderButton{
@@ -123,21 +121,23 @@ header{
     line-height: 500px;
     float: left;
     text-align: center;
-    font-size: 60px;
+    font-size: 80px;
+    font-weight: 300;
     user-select: none;
-    color: #44c2a7;
+    color: #2FCCA8;
 }
+
 
 
 /*PHOTOS*/
 .photos{
-    height: 400px;
+    height: 355px;
 }
-
+/*img boxes*/
 .img{
     height: 220px;
     width: 330px;
-    border: solid 1px red;
+    border: solid 1px #D9D9D9;
     margin: 35px 18px 0 15px;
     float: left;
     position: relative;
@@ -174,23 +174,29 @@ header{
     width: 150px;
     bottom: 32px;
     left: 15px;
-    background-color: #43c9ad;
+    background-color: #2FCCA8;
     z-index: 1;
 }
 
-.photos div:last-of-type{
-    width: 330px;
-    height: 250px;
-    border: solid 1px red;
-    margin: 35px 0 0 15px;
-    float: left;
+.photos span{
+    position: absolute;
+    bottom: 40px;
+    left: 15px;
+    z-index: 2;
+    font-weight: 500;
 }
-
+/*text box*/
 .textBox{
     position: relative;
+    width: 340px;
+    height: 250px;
+    margin: 35px 0 0 15px;
+    border: solid 1px #D9D9D9;
+    float: left;
+    padding: 25px 25px 25px 25px;
 }
 
-.textBox:before{
+.textBox::before{
     content: '';
     display: block;
     position: absolute;
@@ -198,6 +204,175 @@ header{
     width: 150px;
     top: 45px;
     left: 25px;
-    background-color: #43c9ad;
+    background-color: #2FCCA8;
+}
+
+.textBox h2 {
+    margin: 0 0 20px 0;
+    font-weight: 500;
+}
+
+.textBox p{
+    line-height: 1.5em;
+    font-size: 14px;
+    color: grey;
+}
+
+
+
+/*BUY OPTION*/
+.buyOption{
+    height: 725px;
+    background-color: #F1F1F1;
+    padding: 45px 0 0 30px;
+}
+/*Title*/
+#buyTitle{
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: normal;
+    position: relative;
+}
+
+#buyTitle::before{
+    content: '';
+    display: block;
+    position: absolute;
+    height: 7px;
+    width: 320px;
+    top: 30px;
+    left: 0px;
+    background-color: #2FCCA8;
+}
+/*containers*/
+.plan{
+    height: 535px;
+    width: 30%;
+    margin: 55px 3% 0 0;
+    float: left;
+}
+
+.top{
+    height: 35px;
+    position: relative;
+}
+
+.circle{
+    content: '';
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 140px;
+    top: 0px;
+    border-radius: 50%;
+    border: 2px solid #C1C1C1;
+    background-color: white;
+    z-index: 1;
+}
+
+.dot{
+    content: '';
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    left: 152px;
+    top: 12px;
+    border-radius: 50%;
+    background-color: #C1C1C1;
+    z-index: 2;
+}
+/*Inside*/
+.plan h2{
+    padding: 20px 0 30px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+    color: #2FCCA8;
+}
+
+/*Boxy*/
+.box{
+    border: 2px solid #C1C1C1;
+    height: 500px;
+    background-color: #F9F9F9;
+    position: relative;
+    z-index: 0;
+}
+
+.box div{
+    height: 45px;
+    background-color: #2FCCA8;
+    text-align: center;
+    font-size: 22px;
+    line-height: 45px;
+    font-weight: 500;
+}
+
+.box div:nth-of-type(2n){
+    background-color: #E3E3E3;
+}
+
+.box div:nth-of-type(2n-1){
+    background-color: #F1F1F1;
+}
+
+.plan div.price{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 2px solid #C1C1C1;
+    background-color: white;
+    margin: 0 auto 30px auto;
+}
+
+.plan a{
+    position: absolute;
+    bottom: 20px;
+    left: 103px;
+    background-color: #2FCCA8;
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: white;
+}
+
+/*Green Box*/
+.greenBox .box{
+    background-color: #2FCCA8;
+    border: none;
+    padding: 0 2px;
+}
+
+.greenBox .box div:nth-of-type(2n){
+    background-color: white;
+}
+
+.greenBox .box div.price{
+    background-color: white;
+    border: none;
+}
+
+.greenBox h2{
+    color: white;
+}
+
+.greenBox .circle{
+    background-color: #2FCCA8;
+    border: none;
+}
+
+.greenBox .dot{
+    background-color: white;
+}
+
+.greenBox a{
+    background-color: white;
+    color: #2FCCA8;
 }
 
