@@ -227,14 +227,14 @@ header{
     padding: 45px 0 0 30px;
 }
 /*Title*/
-#buyTitle{
+.buyTitle{
     text-transform: uppercase;
     font-size: 22px;
-    font-weight: normal;
+    font-weight: 500;
     position: relative;
 }
 
-#buyTitle::before{
+.buyTitle::before{
     content: '';
     display: block;
     position: absolute;
@@ -317,13 +317,14 @@ header{
     background-color: #F1F1F1;
 }
 
-.plan div.price{
+.plan div.priceBox{
     width: 130px;
     height: 130px;
     border-radius: 50%;
     border: 2px solid #C1C1C1;
     background-color: white;
     margin: 0 auto 30px auto;
+    position: relative;
 }
 
 .plan a{
@@ -342,6 +343,34 @@ header{
     color: white;
 }
 
+/*Prices*/
+.price{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 110px;
+    margin: 0 auto;
+}
+
+.currency{
+    position: absolute;
+    right: 33px;
+    bottom: 18px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+span{
+    position: relative;
+}
+
+sup{
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    top: 10px;
+    right: -13px;
+}
+
 /*Green Box*/
 .greenBox .box{
     background-color: #2FCCA8;
@@ -353,7 +382,7 @@ header{
     background-color: white;
 }
 
-.greenBox .box div.price{
+.greenBox .box div.priceBox{
     background-color: white;
     border: none;
 }
@@ -376,3 +405,174 @@ header{
     color: #2FCCA8;
 }
 
+
+
+/*KONTAKT*/
+.contact{
+    height: 550px;
+    padding: 45px 0 0 30px;
+}
+.contactTitle{
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 500;
+    position: relative;
+}
+
+.contactTitle::before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 7px;
+    width: 320px;
+    top: 30px;
+    left: 0px;
+    background-color: #2FCCA8;
+}
+
+/*formularze*/
+.form{
+    width: 60%;
+    margin: 25px 0 0 0;
+    float: left;
+}
+
+#email, #message, #name{
+    display: block;
+    width: 630px;
+    height: 65px;
+    margin: 20px 0 0 0;
+    border: 1px solid #2FCCA8;
+}
+
+#message{
+    height: 200px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    padding: 15px 0 0 10px;
+    color: lightgray;
+    font-weight: 300;
+    font-size: 32px;
+    font-family: 'raleway', Arial, sans-serif;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: pink;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: pink;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: pink;
+}
+
+.send{
+    float: left;
+    width: 40%;
+    margin: 25px 0 0 0;
+}
+
+.redChair{
+    background-image: url("../images/red_chair.png");
+    width: 264px;
+    height: 210px;
+    margin: 0 auto;
+}
+
+/*check box*/
+.checkContainer{
+    display: block;
+    position: relative;
+    padding: 0 0 0 65px;
+    margin: 30px 30px 0 30px;
+    font-size: 20px;
+}
+
+.checkContainer input{
+    display: none;
+}
+
+.checkmark {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    height: 40px;
+    width: 40px;
+    background-image: url("./../images/form_ok.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #2FCCA8;
+}
+
+/*submit button*/
+input[type="submit"]{
+    display: block;
+    margin: 30px auto 0 auto;
+    height: 70px;
+    width: 350px;
+    border-radius: 15px;
+    background-color: #2FCCA8;
+    border: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'raleway', Arial, sans-serif;
+}
+
+
+
+/*FOOTER*/
+footer{
+    height: 100px;
+    line-height: 100px;
+    color: #9c9c9c;
+}
+
+.copyRights{
+    float: left;
+    width: 65%;
+    font-weight: 500;
+}
+
+.socialMedia{
+    float: left;
+    width: 35%;
+}
+
+.flickr, .vimeo, .pinterest, .tweeter{
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 30px 5px 0 0;
+}
+
+.flickr{
+    background-image: url("./../images/flickr.png");
+}
+
+.vimeo{
+    background-image: url("./../images/vimeo.png");
+}
+
+.pinterest{
+    background-image: url("./../images/pinterest.png");
+}
+
+.tweeter{
+    background-image: url("./../images/twitter.png");
+}
+
+.footerLogo{
+    float: right;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 30px 0 0;
+}
+
+.footerLogo span{
+    font-weight: 900;
+}
