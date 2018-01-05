@@ -17,17 +17,37 @@
             </div>
             <nav>
                 <ul class="menu">
-                    <li>O firmie</li><!--
+                    <li>O firmie
+                        <ul class="submenu">
+                            <li>Element 1.1</li>
+                            <li>Element 1.2</li>
+                            <li>Element 1.3</li>
+                            <li>Element 1.4</li>
+                        </ul>
+                    </li><!--
                  --><li>Galeria</li><!--
-                 --><li>Kontakt</li>
+                 --><li>Kontakt
+                        <ul class="submenu">
+                            <li>Element 3.1</li>
+                            <li>Element 3.2</li>
+                            <li>Element 3.3</li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
         </section>
     </header>
     <section class="slider">
         <section class="mainWidth clearfix">
-            <div class="sliderButton">&lt;</div>
-            <div class="blackChair"></div>
+            <div class="sliderButton" id="prevPicture">&lt;</div>
+            <div class="sliderImages">
+                <ul>
+                    <li><img src="images/image1.png"></li>
+                    <li><img src="images/image2.png"></li>
+                    <li><img src="images/image3.png"></li>
+                    <li><img src="images/image4.png"></li>
+                </ul>
+            </div>
             <div class="readMore">
                 <div>
                     <span class="white">sit</span><span class="green"> on</span><span class="white"> our</span><span class="green"> chair</span>
@@ -38,7 +58,7 @@
                 </p>
                 <a class="readMoreButton">zobacz więcej</a>
             </div>
-            <div class="sliderButton">&gt;</div>
+            <div class="sliderButton" id="nextPicture">&gt;</div>
         </section>
     </section>
     <section class="photos">
@@ -156,5 +176,7 @@
             </section>
         </section>
     </footer>
+    <script src="js/slider.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 </html>

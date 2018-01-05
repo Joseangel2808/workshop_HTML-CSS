@@ -12,13 +12,15 @@ header{
     background-color: black;
     height: 40px;
 }
-
+/*menu*/
 .menu{
     float: right;
+    list-style: none;
 }
 
 .menu li{
     display: inline-block;
+    position: relative;
     color: white;
     text-transform: uppercase;
     font-size: 13px;
@@ -26,6 +28,41 @@ header{
     margin: 0 10px 0 35px;
     letter-spacing: 2px;
     line-height: 40px;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.menu li:hover{
+    color: #2FCCA8;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    list-style: none;
+    width: 120px;
+    background-color: black;
+    z-index: 1;
+    top: 50px;
+    left: -20px;
+}
+
+.submenu::before {
+    content: '';
+    display: block;
+    position: absolute;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid black;
+    height: 0;
+    width: 0;
+    top: -20px;
+    left: 50px;
+}
+
+.submenu li{
+    margin: 0 0 0 10px;
 }
 
 .logo{
@@ -58,21 +95,33 @@ header{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#cfced6',GradientType=0 ); /* IE6-9 */
 }
 
-.blackChair{
-    background: url('./../images/black_chair.png') no-repeat;
-    background-size: cover;
-    background-position: center;
+.sliderImages ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sliderImages li{
+    display: none;
+}
+
+.sliderImages .visible{
+    display: inline-block;
+}
+
+.sliderImages{
     height: 410px;
     width: 35%;
     float: left;
-    margin: 65px 0 0 0;
+    padding: 90px 0 0 0;
 }
 /*read more*/
 .readMore{
     width: 55%;
     float: left;
     text-align: center;
-    padding: 140px 120px 0 60px;
+    padding: 120px 120px 0 60px;
 }
 
 .readMoreButton{
@@ -125,6 +174,10 @@ header{
     font-weight: 300;
     user-select: none;
     color: #2FCCA8;
+}
+
+.sliderButton:hover{
+    color: #53ecbd;
 }
 
 
